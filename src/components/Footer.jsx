@@ -28,7 +28,7 @@ export default function Footer() {
           <a href="mailto:baselmohamed0@outlook.com" target="_blank" rel="noopener noreferrer " 
           className=" flex  gap-3 group "> 
           <div  className="flex justify-center opacity-35 text-4xl h-15
-            p-3 text-center rounded-xl bg-zinc-500 text-zinc-800  group-hover:text-white
+            p-3 text-center rounded-xl bg-zinc-500 text-zinc-200  group-hover:text-zinc-800
             group-hover:border-white"  ><MdEmail/>
           </div>
           <p className="text-zinc-500 mb-4 text-left "> 
@@ -39,7 +39,7 @@ export default function Footer() {
           <a href="tel:+201000678080" target="_blank" rel="noopener noreferrer " 
           className=" flex  gap-3 group"> 
           <div  className="flex justify-center opacity-35 text-4xl h-15
-          p-3 text-center rounded-xl bg-zinc-500 text-zinc-800 group-hover:text-white
+          p-3 text-center rounded-xl bg-zinc-500 text-zinc-200 group-hover:text-zinc-800
           group-hover:border-white"  ><BsTelephone/></div>
           
           <p className="text-zinc-500 mb-4 text-left "> 
@@ -49,7 +49,7 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/basel-mohamed-807095384/" target="_blank" rel="noopener noreferrer " 
           className=" flex  gap-3 group"> 
           <div  className="flex justify-center opacity-35 text-4xl h-15
-          p-3 text-center rounded-xl bg-zinc-500 text-zinc-800 group-hover:text-white
+          p-3 text-center rounded-xl bg-zinc-500 text-zinc-200 group-hover:text-zinc-800
           group-hover:border-white"  ><BsLinkedin/></div>
           
           <p className="text-zinc-500 mb-4 text-left "> 
@@ -59,7 +59,7 @@ export default function Footer() {
           <a href="https://github.com/BaselMohamed0" target="_blank" rel="noopener noreferrer " 
           className=" flex  gap-3 group"> 
           <div  className="flex justify-center opacity-35 text-4xl h-15
-          p-3 text-center rounded-xl bg-zinc-500 text-zinc-800 group-hover:text-white
+          p-3 text-center rounded-xl bg-zinc-500 text-zinc-200 group-hover:text-zinc-800
           group-hover:border-white"  ><BsGithub /></div>
           
           <p className="text-zinc-500 mb-4 text-left "> 
@@ -69,7 +69,7 @@ export default function Footer() {
           <a href="/imgs/Basel Mohamed.pdf" target="_blank" rel="noopener noreferrer " 
           className=" flex  gap-3 group  "> 
           <div  className="flex justify-center opacity-35 text-4xl h-15
-          p-3 text-center rounded-xl bg-zinc-500 text-zinc-800 group-hover:text-white
+          p-3 text-center rounded-xl bg-zinc-500 text-zinc-200 group-hover:text-zinc-800
           group-hover:border-white"  ><TbFileCv /></div>
           
           <p className="text-zinc-500 mb-4 text-left "> 
