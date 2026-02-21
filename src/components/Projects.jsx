@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -21,7 +20,6 @@ export default function Projects() {
         <h2 className="text-3xl md:text-5xl  mb-12 font-black tracking-tighter bg-linear-to-b
          from-white via-white to-zinc-700 bg-clip-text text-transparent">
           Projects</h2>
-        {/* <div className="h-1 w-20 tracking-tighter bg-linear-to-b from-white via-white to-zinc-700 mt-4 " /> */}
       </div>
 
       <div className="grid md:grid-cols-3 gap-10">
@@ -36,7 +34,6 @@ export default function Projects() {
           >
             <div className="relative aspect-video bg-zinc-900 rounded-2xl overflow-hidden mb-6 border border-zinc-800 transition-colors group-hover:border-zinc-500">
               <div className="absolute inset-0 flex items-center justify-center transition-opacity">
-                {/* <ExternalLink size={32} className="text-white " /> */}
                 <Link href={project.link} target="blank">
                 <Image src={project.Image} alt="Pic" width={500} height={500}></Image>
                 </Link>

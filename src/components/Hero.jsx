@@ -7,7 +7,7 @@ export default function Hero() {
     <div
       id="home"
       className="min-h-screen flex flex-col md:flex-row items-center justify-center
-      text-center md:text-left  gap-10 md:gap-30 pt-20"
+      text-center md:text-left  gap-10 md:gap-30  md:pt-20"
     >
       
       {/* Text Section */}
@@ -16,7 +16,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter bg-gradient-to-b from-white via-white to-zinc-700 bg-clip-text text-transparent"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter bg-linear-to-b from-white via-white to-zinc-700 bg-clip-text text-transparent"
         >
           Hi I’m Basel Mohamed <br />
           FRONTEND ENGINEER  

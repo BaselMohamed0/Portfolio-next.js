@@ -1,6 +1,5 @@
 import Animation from "@/utils/Animation";
-import { Link } from "lucide-react";
-import { BsFacebook, BsInstagram, BsLinkedin, BsTelephone, BsGithub , BsMailbox } from "react-icons/bs";
+import {  BsLinkedin, BsTelephone, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { TbFileCv } from "react-icons/tb";
 

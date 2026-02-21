@@ -11,7 +11,7 @@ const skills = [
   "Tailwind",
   "TypeScript",
   "GitHub",
-  "SOLID",
+  "SOLID Principles",
   "OOP",
   "Responsive Design",
 ];
@@ -20,7 +20,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="max-w-5xl mx-auto py-24 px-6 text-center"
+      className="max-w-5xl mx-auto md:py-24 px-8 text-center"
     >
       <h2 className="text-3xl md:text-5xl mb-12 font-black tracking-tighter bg-linear-to-b
          from-white via-white to-zinc-700 bg-clip-text text-transparent">
