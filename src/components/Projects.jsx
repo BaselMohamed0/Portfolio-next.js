@@ -18,7 +18,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-32 px-8 max-w-7xl mx-auto" >
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl  mb-12 font-black tracking-tighter bg-linear-to-b
+        <h2 className="text-3xl md:text-5xl  mb-12 font-black tracking-tighter bg-linear-to-b
          from-white via-white to-zinc-700 bg-clip-text text-transparent">
           Projects</h2>
         {/* <div className="h-1 w-20 tracking-tighter bg-linear-to-b from-white via-white to-zinc-700 mt-4 " /> */}
