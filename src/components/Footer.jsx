@@ -1,3 +1,4 @@
+"use client";
 import Animation from "@/utils/Animation";
 import {  BsLinkedin, BsTelephone, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
@@ -79,40 +80,43 @@ export default function Footer() {
       </div>
 
 {/* ------------Form-------------- */}
-      <div className="flex justify-center items-center mt-16 px-4"
-        data-aos="zoom-in"  data-aos-duration="900" data-aos-delay="300"
+  <div className="flex justify-center items-center mt-16 px-4"
+      data-aos="zoom-in"  data-aos-duration="900" data-aos-delay="300"
+    >
+      <form className="w-full md:w-1/2 max-w-2xl space-y-6"
+        onSubmit={(e) => {
+        e.preventDefault();
+        const d = new FormData(e.target);
+        window.open(
+        `https://wa.me/201000678080?text=${encodeURIComponent(
+        `Name: ${d.get("name")}
+        Email: ${d.get("email")}
+        Message: ${d.get("message")}`
+          )}`,"_blank" );
+        }}
       >
-        <form className="w-full md:w-1/2 max-w-2xl space-y-6">
-
-            <input type="text" placeholder="Enter your name"
-              className="w-full p-3 rounded-xl bg-zinc-500/20 text-white border border-zinc-700 
-              focus:outline-none focus:border-white transition duration-300"
-            />
-
-        
-            <input type="email" placeholder="Enter your email" className="w-full p-3 rounded-xl
-             bg-zinc-500/20 text-white border border-zinc-700 focus:outline-none focus:border-white 
-             transition duration-300"
-            />
+          <input type="text" placeholder="Enter your name" name="name"
+            className="w-full p-3 rounded-xl bg-zinc-500/20 text-white border border-zinc-700 
+            focus:outline-none focus:border-white transition duration-300"
+          />
       
-            <textarea rows="5" placeholder="Write your message..."
-              className="w-full p-3 rounded-xl bg-zinc-500/20  text-white border border-zinc-700 
-              focus:outline-none focus:border-white transition duration-300 resize-none"
-            />
-
-          <button type="submit" className="w-full py-3 rounded-xl bg-zinc-700 text-zinc-900 font-semibold 
-            hover:bg-zinc-500 hover:text-black transition duration-300"
-          >
-            Send Message
-          </button>
-
+          <input type="email" placeholder="Enter your email" name="email" className="w-full p-3 rounded-xl 
+           bg-zinc-500/20 text-white border border-zinc-700 focus:outline-none focus:border-white 
+           transition duration-300"
+          />
+    
+          <textarea rows="5" placeholder="Write your message..." name="message"
+            className="w-full p-3 rounded-xl bg-zinc-500/20  text-white border border-zinc-700 
+            focus:outline-none focus:border-white transition duration-300 resize-none"
+          />
+        <button type="submit" className="w-full py-3 rounded-xl bg-zinc-700 text-zinc-900 font-semibold 
+          hover:bg-zinc-500 hover:text-black transition duration-300"
+        >
+          Send Message
+        </button>
         </form>
       </div>
-   
-
     </div>
-
-    
 
     <div className="pt-5 border-t border-zinc-900 text-center">
 
