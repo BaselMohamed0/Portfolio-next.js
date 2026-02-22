@@ -28,7 +28,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mt-6 text-zinc-400 text-base sm:text-lg leading-relaxed"
         >
-          Front-End Engineer focused on building clean, responsive, and user-friendly interfaces. 
+          Focused on building clean, responsive, and user-friendly interfaces. 
           I enjoy turning ideas and designs into smooth, high-quality user experiences and 
           continuously improving my front-end development skills.
         </motion.p>
