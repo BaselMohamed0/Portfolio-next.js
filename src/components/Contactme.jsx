@@ -109,7 +109,7 @@ export default function Footer() {
             className="w-full p-3 rounded-xl bg-zinc-500/20  text-white border border-zinc-700 
             focus:outline-none focus:border-white transition duration-300 resize-none"
           />
-        <button type="submit" className="w-full py-3 rounded-xl bg-zinc-700 text-zinc-900 font-semibold 
+        <button type="submit" className="w-full py-3 rounded-xl bg-zinc-700 text-zinc-400 font-semibold 
           hover:bg-zinc-500 hover:text-black transition duration-300"
         >
           Send Message
