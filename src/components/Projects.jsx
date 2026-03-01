@@ -5,6 +5,8 @@ import Link from "next/link";
 
 
 const projects = [
+  { title: "Fine Art Commercial Hub", desc: "A commercial art gallery and booking site. It provides an intuitive interface for clients to register and commission.", 
+    link: "https://galerie-d-engy.vercel.app/", Image: "/imgs/Galerie.png" },
   { title: "Handmade Bags E-commerce", desc: "A full commercial site for handmade bags using React.js, Next.js, Tailwind.", 
     link: "http://rourboutique.com", Image: "/imgs/Rour.png" },
   { title: "Hangman Game", desc: "Simple Hangman game built with HTML, CSS, JS.", 
