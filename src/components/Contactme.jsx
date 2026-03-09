@@ -4,7 +4,6 @@ import {  BsLinkedin, BsTelephone, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { TbFileCv } from "react-icons/tb";
 
-
 export default function Footer() {
   return (
     <>
@@ -112,7 +111,7 @@ export default function Footer() {
         <button type="submit" className="w-full py-3 rounded-xl bg-zinc-700 text-zinc-400 font-semibold 
           hover:bg-zinc-500 hover:text-black transition duration-300"
         >
-          Send Message
+          Send Message 
         </button>
         </form>
       </div>
