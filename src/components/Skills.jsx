@@ -30,7 +30,7 @@ export default function Skills() {
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {skills.map((skill, index) => (
-          <div key={index} className="p-2 md:p-4  text-sm md:text-xl rounded-xl bg-zinc-800 border
+          <div key={index} className="p-2  md:p-4  text-sm md:text-xl rounded-xl bg-zinc-800 border
            border-zinc-700 text-zinc-400 font-bold  hover:border-white hover:text-white 
            transition duration-300 flex items-center ">
 
@@ -40,9 +40,9 @@ export default function Skills() {
             transition={{ type: "spring", stiffness: 200, damping: 15, duration: 0.8, delay: 0.2 }}
             viewport={{ once: false, amount: 0.3 }}
             whileHover={{ y: -6 }}
-            className="   text-zinc-400 font-bold flex flex-row gap-3 items-center "
+            className=" text-zinc-400 font-bold flex flex-row gap-4 items-center "
           >
-            <Image src={skill.img} alt="Pic" width={60} height={40} ></Image>
+            <Image src={skill.img} alt="Pic" width={30} height={40} ></Image>
             
             {skill.name}
           </motion.div>

@@ -1,7 +1,8 @@
 "use client";
 import Animation from "@/utils/Animation";
+import Link from "next/link";
 import {  BsLinkedin, BsTelephone, BsGithub } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdWhatsapp } from "react-icons/md";
 import { TbFileCv } from "react-icons/tb";
 
 export default function Footer() {
@@ -24,7 +25,7 @@ export default function Footer() {
       <div className="flex justify-center pl-15 md:pl-40">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl w-full">            
           
-          <a href="mailto:baselmohamed0@outlook.com" target="_blank" rel="noopener noreferrer " 
+          <Link href="mailto:baselmohamed0@outlook.com" target="_blank" rel="noopener noreferrer " 
           className=" flex  gap-3 group "> 
           <div  className="flex justify-center opacity-35 text-4xl h-15
             p-3 text-center rounded-xl bg-zinc-500 text-zinc-200  group-hover:text-zinc-800
@@ -33,9 +34,9 @@ export default function Footer() {
           <p className="text-zinc-500 mb-4 text-left "> 
             Email: <br />baselmohamed0@outlook.com 
           </p>
-          </a>
+          </Link>
         
-          <a href="tel:+201000678080" target="_blank" rel="noopener noreferrer " 
+          <Link href="tel:+201000678080" target="_blank" rel="noopener noreferrer " 
           className=" flex  gap-3 group"> 
           <div  className="flex justify-center opacity-35 text-4xl h-15
           p-3 text-center rounded-xl bg-zinc-500 text-zinc-200 group-hover:text-zinc-800
@@ -43,7 +44,7 @@ export default function Footer() {
           
           <p className="text-zinc-500 mb-4 text-left "> 
             Phone:  <br />+201000678080</p>
-          </a>
+          </Link>
 
           <a href="https://www.linkedin.com/in/basel-mohamed-807095384/" target="_blank" rel="noopener noreferrer " 
           className=" flex  gap-3 group"> 
@@ -55,7 +56,7 @@ export default function Footer() {
             LinkedIn:   <br />View Profile</p>
           </a>
 
-          <a href="https://github.com/BaselMohamed0" target="_blank" rel="noopener noreferrer " 
+          <Link href="https://github.com/BaselMohamed0" target="_blank" rel="noopener noreferrer " 
           className=" flex  gap-3 group"> 
           <div  className="flex justify-center opacity-35 text-4xl h-15
           p-3 text-center rounded-xl bg-zinc-500 text-zinc-200 group-hover:text-zinc-800
@@ -63,9 +64,19 @@ export default function Footer() {
           
           <p className="text-zinc-500 mb-4 text-left "> 
             GitHub:   <br />View Repos</p>
-          </a>
+          </Link>
 
-          <a href="/imgs/Basel Mohamed.pdf" target="_blank" rel="noopener noreferrer " 
+          <Link href="https://wa.me/+201000678080" target="_blank" rel="noopener noreferrer " 
+          className=" flex  gap-3 group  "> 
+          <div  className="flex justify-center opacity-35 text-4xl h-15
+          p-3 text-center rounded-xl bg-zinc-500 text-zinc-200 group-hover:text-zinc-800
+          group-hover:border-white"  ><MdWhatsapp /></div>
+          
+          <p className="text-zinc-500 mb-4 text-left "> 
+            Whatsapp:    <br />Send to WP</p>
+          </Link>
+
+          <Link href="/imgs/Basel Mohamed.pdf" target="_blank" rel="noopener noreferrer " 
           className=" flex  gap-3 group  "> 
           <div  className="flex justify-center opacity-35 text-4xl h-15
           p-3 text-center rounded-xl bg-zinc-500 text-zinc-200 group-hover:text-zinc-800
@@ -73,7 +84,7 @@ export default function Footer() {
           
           <p className="text-zinc-500 mb-4 text-left "> 
             C.V:    <br />View C.V</p>
-          </a>
+          </Link>
             
         </div>
       </div>
