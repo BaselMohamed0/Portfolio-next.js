@@ -5,6 +5,8 @@ import Link from "next/link";
 
 
 const projects = [
+  { title: "Tally | Real-time Smart Finance Manager Description", desc: "A full-stack financial dashboard focused on speed and security. Empowering users to track daily transactions and visualize financial health through a seamless, responsive interface.", 
+    link: "https://tally0.vercel.app/", Image: "/imgs/tally.png" },
   { title: "Fine Art Commercial Hub", desc: "A commercial art gallery and booking site. It provides an intuitive interface for clients to register and commission.", 
     link: "https://galerie-d-engy.vercel.app/", Image: "/imgs/Galerie.png" },
   { title: "Handmade Bags E-commerce", desc: "A full commercial site for handmade bags using React.js, Next.js, Tailwind.", 
