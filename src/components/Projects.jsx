@@ -5,8 +5,10 @@ import Link from "next/link";
 
 
 const projects = [
+  { title: "Digital Portfolio for Graphic Designer", desc: "A bespoke, high-performance portfolio developed with Next.js and Framer Motion, Grid System, Fluid Typography, Lightbox gallery, optimized SEO and integrated Google Analytics 4 specifically for a professional Graphic Designer. This project bridges the gap between static design and interactive digital experience.", 
+    link: "https://reem-awwad.vercel.app/", Image: "/imgs/reem2.png" },
   { title: "Tally | Real-time Smart Finance Manager Description", desc: "A full-stack financial dashboard focused on speed and security. Empowering users to track daily transactions and visualize financial health through a seamless, responsive interface.", 
-    link: "https://tally0.vercel.app/", Image: "/imgs/tally.png" },
+    link: "https://tally0.vercel.app/", Image: "/imgs/tally3.png" },
   { title: "Fine Art Commercial Hub", desc: "A commercial art gallery and booking site. It provides an intuitive interface for clients to register and commission.", 
     link: "https://galerie-d-engy.vercel.app/", Image: "/imgs/Galerie.png" },
   { title: "Handmade Bags E-commerce", desc: "A full commercial site for handmade bags using React.js, Next.js, Tailwind.", 
@@ -33,7 +35,7 @@ export default function Projects() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
-            transition={{ delay: index * 0.4 }}
+            transition={{ delay: 0.2 }}
             className="group"
           >
             <div className="relative aspect-video bg-zinc-900 rounded-2xl overflow-hidden mb-6 border border-zinc-800 transition-colors group-hover:border-zinc-500">
