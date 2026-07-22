@@ -5,13 +5,19 @@ import Link from "next/link";
 
 
 const projects = [
+  { title: "Contek | Mechanical Contracting Website", 
+    desc: "An extensive, multi-page corporate website developed with Next.js for a leading mechanical contracting firm. Spanning 8 comprehensive pages, it professionally showcases the company's full scope of mechanical services, including HVAC, fire fighting, plumbing, boilers, and electrical systems.", 
+    link: "https://contek.vercel.app/",  Image: "/imgs/contek.png" },
+  { title: "Makoalat Al-Sham | Restaurant Platform", 
+    desc: "A fully-fledged, dynamic culinary platform built with Next.js for a traditional Levantine restaurant. It features an interactive digital menu, a seamless shopping cart system, and an order management flow that instantly routes customer orders directly to WhatsApp.", 
+    link: "https://ma2kolatelsham.vercel.app/",  Image: "/imgs/ma2kolat.png" },
   { title: "Digital Portfolio for Graphic Designer", desc: "A bespoke, high-performance portfolio developed with Next.js and Framer Motion, Grid System, Fluid Typography, Lightbox gallery, optimized SEO and integrated Google Analytics 4 specifically for a professional Graphic Designer. This project bridges the gap between static design and interactive digital experience.", 
     link: "https://reem-awwad.vercel.app/", Image: "/imgs/reem2.png" },
-  { title: "Tally | Real-time Smart Finance Manager Description", desc: "A full-stack financial dashboard focused on speed and security. Empowering users to track daily transactions and visualize financial health through a seamless, responsive interface.", 
-    link: "https://tally0.vercel.app/", Image: "/imgs/tally3.png" },
-  { title: "Fine Art Commercial Hub", desc: "A commercial art gallery and booking site. It provides an intuitive interface for clients to register and commission.", 
+  { title: "MoneyLens | Real-time Smart Finance Manager Description", desc: "A full-stack financial dashboard focused on speed and security. Empowering users to track daily transactions and visualize financial health through a seamless, responsive interface.", 
+    link: "https://www.moneylensapp.com/", Image: "/imgs/moneylens.png" },
+  { title: "Galerie D'Engy | Fine Art Commercial Hub", desc: "A commercial art gallery and booking site. It provides an intuitive interface for clients to register and commission.", 
     link: "https://galerie-d-engy.vercel.app/", Image: "/imgs/Galerie.png" },
-  { title: "Handmade Bags E-commerce", desc: "A full commercial site for handmade bags using React.js, Next.js, Tailwind.", 
+  { title: "Rour | Handmade Bags E-commerce", desc: "A full commercial site for handmade bags using React.js, Next.js, Tailwind.", 
     link: "http://rourboutique.com", Image: "/imgs/Rour.png" },
   { title: "Hangman Game", desc: "Simple Hangman game built with HTML, CSS, JS.", 
     link: "https://baselmohamed0.github.io/Hang-Man/",Image: "/imgs/Hangman.png" },
