@@ -5,6 +5,18 @@ import Link from "next/link";
 
 const projects = [
   {
+    title: "CIES Engineering | MEP Design Consultancy & BIM Technical Office",
+    desc: "A high-end engineering portfolio web app built for CIES with Next.js App Router, Tailwind CSS, and Framer Motion. Designed with a professional dark engineering-sheet aesthetic to showcase complex MEP consultancy, Revit BIM coordination, shop drawings, and global cross-border projects across Europe and the Middle East.",
+    link: "https://cies-uae.vercel.app/",
+    Image: "/imgs/cies.png",
+  },
+  {
+    title: "Raha Care | Home Healthcare & Nursing Booking Platform",
+    desc: "An intuitive home-nursing reservation web app for Raha Care, built with Next.js and MongoDB. Designed to connect patients with certified caregivers through a streamlined multi-step booking system and an admin portal.",
+    link: "https://raha-care.com/",
+    Image: "/imgs/raha-care.png",
+  },
+  {
     title: "FaboraKits | E-Commerce Website for Wooden Model Kits",
     desc: "A feature-rich e-commerce platform built for faboraKits, a brand specializing in intricate 3D wooden puzzle kits—from cars and aircraft to ships and famous landmarks. Designed to showcase complex 300+ piece self-assembly kits with an intuitive shopping experience.",
     link: "https://faborakits.com/",
@@ -41,7 +53,7 @@ const projects = [
     Image: "/imgs/Galerie.png",
   },
   {
-    title: "rour | Handmade Pearl Bags E-Commerce Website",
+    title: "ٌRour | Handmade Pearl Bags E-Commerce Website",
     desc: "A stylish, fully responsive e-commerce platform built for rour, an exclusive brand specializing in handcrafted pearl bags. Features an elegant product showcase with high-resolution image galleries, interactive order customization, category filtering, and a seamless checkout experience.",
     link: "http://rourboutique.com",
     Image: "/imgs/Rour.png",
