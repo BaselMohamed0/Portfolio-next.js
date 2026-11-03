@@ -9,28 +9,28 @@ export default function Hero() {
       className="min-h-screen flex flex-col md:flex-row items-center justify-center
       text-center md:text-left  gap-10 md:gap-30  md:pt-20"
     >
-      
       {/* Text Section */}
       <div className="flex flex-col items-center md:items-start max-w-2xl">
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter bg-linear-to-b from-white via-white to-zinc-700 bg-clip-text text-transparent"
         >
           Hi I’m Basel Mohamed <br />
-          FRONTEND ENGINEER  
+          FRONTEND ENGINEER
         </motion.h1>
 
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mt-6 text-zinc-400 text-base sm:text-lg leading-relaxed"
         >
-          Focused on building clean, responsive, and user-friendly interfaces. 
-          I enjoy turning ideas and designs into smooth, high-quality user experiences and 
-          continuously improving my front-end development skills.
+          Focused on building clean, responsive, and user-friendly interfaces. I
+          enjoy turning ideas and designs into smooth, high-quality user
+          experiences and continuously improving my front-end development
+          skills.
         </motion.p>
       </div>
 
@@ -49,7 +49,6 @@ export default function Hero() {
           className="rounded-2xl w-56 sm:w-72 md:w-80 lg:w-96 h-auto"
         />
       </motion.div>
-
     </div>
   );
 }

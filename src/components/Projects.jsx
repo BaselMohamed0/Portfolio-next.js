@@ -5,6 +5,18 @@ import Link from "next/link";
 
 const projects = [
   {
+    title: "Smoothie Palace | E-Commerce & QR Ordering Web App",
+    desc: "A vibrant, high-performance e-commerce and ordering web application built for Smoothie Palace using Next.js App Router, Tailwind CSS, and Framer Motion. Features a dynamic responsive menu, interactive QR code ordering system for dine-in tables, cashier gateway integration, custom cleanse pack showcases, and optimized media assets for lightning-fast cross-device performance across mobile and desktop.",
+    link: "https://smoothies-palace.vercel.app/",
+    Image: "/imgs/smoothie-palace.png",
+  },
+  {
+    title: "PULSE | Minimalist High-End Coffee Experience",
+    desc: "A sleek, modern web application for PULSE showcasing a curated artisanal menu through architectural minimalism. Built with Next.js 16, Tailwind CSS v4, and Framer Motion for dynamic animations and full mobile responsiveness.",
+    link: "https://pulse-lake-nine-70.vercel.app/",
+    Image: "/imgs/pulse.png",
+  },
+  {
     title: "CIES Engineering | MEP Design Consultancy & BIM Technical Office",
     desc: "A high-end engineering portfolio web app built for CIES with Next.js App Router, Tailwind CSS, and Framer Motion. Designed with a professional dark engineering-sheet aesthetic to showcase complex MEP consultancy, Revit BIM coordination, shop drawings, and global cross-border projects across Europe and the Middle East.",
     link: "https://cies-uae.vercel.app/",
@@ -56,7 +68,7 @@ const projects = [
     title: "ٌRour | Handmade Pearl Bags E-Commerce Website",
     desc: "A stylish, fully responsive e-commerce platform built for rour, an exclusive brand specializing in handcrafted pearl bags. Features an elegant product showcase with high-resolution image galleries, interactive order customization, category filtering, and a seamless checkout experience.",
     link: "http://rourboutique.com",
-    Image: "/imgs/Rour.png",
+    Image: "/imgs/Rour2.png",
   },
   {
     title: "Interactive Flying Bird | JavaScript Animation",
@@ -107,7 +119,8 @@ export default function Projects() {
                     src={project.Image}
                     alt="Pic"
                     width={500}
-                    height={500}
+                    height={300}
+                    className="w-auto h-auto object-cover"
                   ></Image>
                 </Link>
               </div>
